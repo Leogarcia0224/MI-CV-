@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;   
+} 
+    
+
+header{
+    width: 100vw;
+    height: auto;    
+}
+
+.menu{
+   height: 60px;
+   width: auto;
+   background-color: rgba(2, 1, 10, 0.753);
+   color: white;
+   text-align:center;
+   text-decoration: none;
+   list-style-type: none;
+   
+  
+   
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+
+}
+
+.menu ul li{
+    margin: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+   
+
+}
+
+hr{
+    background-color: blue;
+}
+
+.info{
+   
+    text-align: center;
+    height: 180px;
+    padding-top: 60px;
+    
+}
+
+.info h2{
+    font-size: 25px; color: rgba(139, 136, 136, 0.534);
+}
+
+.perfil h3{
+    height: 50px;
+    
+}
+
+.perfil p{
+    height: auto;
+    width: auto;
+    
+}
+
+.experiencia h3{
+    height: 50px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+}
+
+aside{
+    border: 2px solid black ;
+    
+    
+
+}
+.name{
+    width: 20vw;
+    height: 40vh; 
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+.redes ul li{
+    color: aqua;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+
+
+
+
